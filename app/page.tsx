@@ -313,13 +313,16 @@ export default function ProbabilityMasterclassLandingPage() {
               <SignupPoint>
                 Number
               </SignupPoint>
+              <SignupPoint>
+                Year Group
+              </SignupPoint>
             </div>
           </div>
 
           <div className="overflow-hidden rounded-[28px] border border-white/10 bg-[#FFFDF9] shadow-2xl">
             <iframe
               title="Probability Masterclass Sign Up"
-              src={typeformEmbedUrl}
+              src="https://form.typeform.com/to/EQbMONuY"
               className="h-[720px] w-full"
             />
           </div>
