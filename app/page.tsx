@@ -55,7 +55,7 @@ export default function ChezeEliteAcademyPage() {
                   href="#join"
                   className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
                 >
-                  Join the Academy — Free trial then €94/month
+                  Join the Academy — Free trial
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
                 <a
@@ -215,7 +215,7 @@ export default function ChezeEliteAcademyPage() {
             <div className="rounded-[28px] border-2 border-orange-400 bg-[#0C1B33] p-8 shadow-xl">
               <p className="text-sm font-black uppercase tracking-[0.22em] text-orange-300">Monthly membership</p>
               <div className="mt-3 flex items-end gap-2">
-                <span className="text-6xl font-black text-white">1 week free then €94</span>
+                <span className="text-6xl font-black text-white">€94</span>
                 <span className="mb-2 text-base font-semibold text-slate-400">/month</span>
               </div>
               <p className="mt-2 text-sm text-slate-300">Full access to everything. Cancel any time.</p>
