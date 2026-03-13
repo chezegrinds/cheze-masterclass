@@ -357,6 +357,15 @@ function TimelineDivider() {
 
 // ── OTHER COMPONENTS ──
 
+function PainCard({ title, text }: { title: string; text: string }) {
+  return (
+    <div className="rounded-[24px] border border-[#E8DFD3] bg-[#FFFDF9] p-6 shadow-sm transition-transform duration-200 hover:-translate-y-1">
+      <p className="text-lg font-black tracking-tight text-[#0C1B33]">{title}</p>
+      <p className="mt-3 text-base leading-7 text-[#5F6470]">{text}</p>
+    </div>
+  );
+}
+
 function SimpleCard({ children }: { children: React.ReactNode }) {
   return (
     <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] p-7 shadow-sm">{children}</div>
