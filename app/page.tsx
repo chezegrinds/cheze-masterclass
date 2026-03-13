@@ -15,8 +15,7 @@ import {
 
 export default function EasterCrashCourseLandingPage() {
   const crashCourseDate = useMemo(() => {
-    // Counts down to the first event — in-person Cork, Friday 3rd April
-    return new Date("2026-04-03T10:00:00");
+    return new Date("2026-04-03T11:00:00");
   }, []);
 
   const [timeLeft, setTimeLeft] = useState(getTimeLeft(crashCourseDate));
@@ -58,16 +57,12 @@ export default function EasterCrashCourseLandingPage() {
               </div>
 
               <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-                Two days. Eight hours. Every topic that matters.
-                <span className="block text-orange-500">
-                  Walk into the exam ready.
-                </span>
+                Two days. Every topic that matters.
+                <span className="block text-orange-500">Walk into the exam ready.</span>
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#5F6470] sm:text-xl">
-                A focused 2-day crash course for Leaving Cert Higher Level Maths students
-                who want to stop guessing and start attacking exam questions with a clear,
-                proven system — covering the biggest and most important topics on the paper.
+                A focused 2-day crash course covering the biggest and most important topics on the Leaving Cert HL Maths paper.
               </p>
 
               <p className="mt-4 text-sm font-semibold text-[#6B7280]">
@@ -75,18 +70,12 @@ export default function EasterCrashCourseLandingPage() {
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <a
-                  href="#online"
-                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
-                >
+                <a href="#online" className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors">
                   Join Online — €99
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
-                <a
-                  href="#inperson"
-                  className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm"
-                >
-                  Cork In-Person — €50 deposit
+                <a href="#inperson" className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm">
+                  Cork In-Person — €249
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
@@ -106,14 +95,14 @@ export default function EasterCrashCourseLandingPage() {
                   Cork in-person: Fri 3 & Sat 4 April · Online: Tue 7 & Wed 8 April
                 </p>
                 <p className="mt-2 text-sm font-bold text-orange-600">
-                  Cork in-person strictly capped at 50 students
+                  Online capped at 100 seats · Cork capped at 50 seats
                 </p>
               </div>
 
               <div className="mt-6 grid max-w-2xl gap-3 sm:grid-cols-3">
                 <FeaturePill icon={<MapPin className="h-4 w-4" />} label="Cork: Fri 3 & Sat 4 Apr" />
                 <FeaturePill icon={<Wifi className="h-4 w-4" />} label="Online: Tue 7 & Wed 8 Apr" />
-                <FeaturePill icon={<Clock3 className="h-4 w-4" />} label="4 hrs teaching per day" />
+                <FeaturePill icon={<Clock3 className="h-4 w-4" />} label="11am – 4pm each day" />
               </div>
             </div>
 
@@ -126,19 +115,15 @@ export default function EasterCrashCourseLandingPage() {
                     What you'll walk away with
                   </div>
                   <div className="space-y-4">
-                    <Bullet>A clear system for reading and attacking any exam question — even ones you've never seen before</Bullet>
-                    <Bullet>Full coverage of the biggest and highest-frequency topics across both papers</Bullet>
-                    <Bullet>Exam technique that stops you dropping marks on questions you actually understand</Bullet>
-                    <Bullet>A timed mock exam on Day 2 with a full debrief — so you know exactly where you stand</Bullet>
+                    <Bullet>A clear system for attacking any exam question confidently</Bullet>
+                    <Bullet>Full coverage of the highest-frequency topics on the paper</Bullet>
+                    <Bullet>Exam technique that stops you dropping marks on questions you understand</Bullet>
                     <Bullet>Replay access to every session so nothing is missed</Bullet>
                   </div>
                   <div className="mt-6 rounded-3xl bg-[#0C1B33] p-5 text-white">
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-orange-300">
-                      Who this is for
-                    </p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-orange-300">Who this is for</p>
                     <p className="mt-3 text-base leading-7 text-slate-100">
-                      Leaving Cert HL Maths students who want two focused days that
-                      cover what matters most — and leave feeling prepared, not overwhelmed.
+                      Leaving Cert HL Maths students who want two focused days that cover what matters most.
                     </p>
                   </div>
                 </div>
@@ -152,12 +137,8 @@ export default function EasterCrashCourseLandingPage() {
       <section className="border-b border-[#E8DFD3] bg-[#FFFDF9]">
         <div className="mx-auto max-w-4xl px-6 py-14 lg:px-8 lg:py-16">
           <div className="mb-8 text-center">
-            <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">
-              Watch this first
-            </p>
-            <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
-              Everything you need to know about the crash course.
-            </h2>
+            <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">Watch this first</p>
+            <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Everything you need to know.</h2>
           </div>
           {/* ── REPLACE the div below with your video embed (YouTube, Vimeo, Wistia, etc.) ── */}
           <div className="relative w-full overflow-hidden rounded-[24px] border-2 border-dashed border-orange-300 bg-orange-50 shadow-lg" style={{ aspectRatio: "16/9" }}>
@@ -174,142 +155,96 @@ export default function EasterCrashCourseLandingPage() {
         </div>
       </section>
 
-      {/* ── THE PROBLEM ── */}
+      {/* ── TIMELINE ── */}
       <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
-        <div className="max-w-3xl">
-          <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">
-            The real problem
-          </p>
-          <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
-            It is not that you do not know maths. It is that you do not know how to connect what you know to what you see.
-          </h2>
-          <p className="mt-4 text-lg leading-8 text-[#5F6470]">
-            Every piece of maths is out there for free. So why isn't everyone getting their H1?
-            Because understanding something in class and performing under exam conditions are two completely different skills.
-            This crash course teaches you both.
-          </p>
+        <div className="mb-10 text-center">
+          <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">The programme</p>
+          <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Two days. The most important topics.</h2>
         </div>
 
-        <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-          <PainCard
-            title="You understand it in class but blank in the exam"
-            text="You know the material. But when the clock starts ticking, the connection between what you see and what you know disappears."
-          />
-          <PainCard
-            title="You lose marks on setup, not on the maths"
-            text="Your algebra is fine. But if you don't construct the solution correctly from the start, the marks are gone before you've written a line."
-          />
-          <PainCard
-            title="You don't trust your own answers"
-            text="You finish a question and still feel like you attacked it the wrong way. That uncertainty is what this course eliminates."
-          />
-          <PainCard
-            title="Easter is your last real window"
-            text="After Easter it is straight into revision and mocks. Two focused days now can change the trajectory of everything that follows."
-          />
-        </div>
-      </section>
-
-      {/* ── WHAT'S COVERED ── */}
-      <section className="border-y border-[#E8DFD3] bg-[#FFFDF9]">
-        <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
-          <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
-            <div>
-              <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">
-                The programme
-              </p>
-              <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Two days. The most important topics. Done properly.
-              </h2>
-              <p className="mt-4 text-lg leading-8 text-[#5F6470]">
-                Every session is built around how questions actually appear in the exam —
-                not just theory, but the exact reasoning process that gets you full marks.
-              </p>
-              <div className="mt-8 grid gap-3 sm:grid-cols-2">
-                <DayCard day="Day 1" topics={["Algebra & functions", "Trigonometry", "Coordinate geometry"]} colour="orange" />
-                <DayCard day="Day 2" topics={["Calculus — diff. & integration", "Statistics & probability", "Timed mock + full debrief"]} colour="navy" />
-              </div>
-              <p className="mt-4 text-sm text-[#6B7280]">
-                Cork: Fri 3 & Sat 4 April · Online: Tue 7 & Wed 8 April<br />
-                10:00 AM – 12:30 PM · Break 12:30 – 1:30 PM · 1:30 PM – 4:00 PM each day
-              </p>
+        <div className="grid gap-8 lg:grid-cols-2">
+          {/* Day 1 */}
+          <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] overflow-hidden shadow-sm">
+            <div className="bg-orange-500 px-7 py-4">
+              <p className="text-lg font-black text-white">Day 1</p>
+              <p className="text-sm text-orange-100 mt-0.5">Fri 3 Apr (Cork) · Tue 7 Apr (Online)</p>
             </div>
+            <div className="p-7">
+              <TimelineRow time="11:00 AM" topic="Probability & Statistics" desc="The most heavily examined topic on Paper 2. Covered in full." isBreak={false} />
+              <TimelineDivider />
+              <TimelineRow time="12:30 PM" topic="Break" desc="1 hour" isBreak={true} />
+              <TimelineDivider />
+              <TimelineRow time="1:30 PM" topic="Coordinate Geometry" desc="Lines and circles — everything you need for full marks." isBreak={false} />
+              <TimelineDivider />
+              <TimelineRow time="4:00 PM" topic="End of Day 1" desc="" isBreak={true} />
+            </div>
+          </div>
 
-            <div className="grid gap-4">
-              <TeachCard
-                title="How to decode any exam question"
-                text="Learn to slow the question down, identify exactly what it is asking, and start the solution without hesitation."
-              />
-              <TeachCard
-                title="How to choose the correct method"
-                text="Know which approach to use and why — and stop second-guessing yourself mid-question."
-              />
-              <TeachCard
-                title="How to structure full-mark solutions"
-                text="See exactly how to lay out answers in a way that picks up every available mark."
-              />
-              <TeachCard
-                title="How to perform under timed pressure"
-                text="Practice the logical reasoning process until it becomes automatic — so exam conditions don't rattle you."
-              />
+          {/* Day 2 */}
+          <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] overflow-hidden shadow-sm">
+            <div className="bg-[#0C1B33] px-7 py-4">
+              <p className="text-lg font-black text-white">Day 2</p>
+              <p className="text-sm text-slate-400 mt-0.5">Sat 4 Apr (Cork) · Wed 8 Apr (Online)</p>
+            </div>
+            <div className="p-7">
+              <TimelineRow time="11:00 AM" topic="Differentiation & Integration" desc="The backbone of Paper 1. A systematic approach to every question type." isBreak={false} />
+              <TimelineDivider />
+              <TimelineRow time="12:30 PM" topic="Break" desc="1 hour" isBreak={true} />
+              <TimelineDivider />
+              <TimelineRow time="1:30 PM" topic="Complex Numbers & Functions" desc="High-value topics students consistently underperform on." isBreak={false} />
+              <TimelineDivider />
+              <TimelineRow time="4:00 PM" topic="End of Day 2" desc="" isBreak={true} />
             </div>
           </div>
         </div>
       </section>
 
       {/* ── OUTCOMES ── */}
-      <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
-        <div className="grid gap-6 lg:grid-cols-3">
-          <SimpleCard>
-            <Target className="h-8 w-8 text-orange-500" />
-            <h3 className="mt-5 text-2xl font-black tracking-tight">Clearer method</h3>
-            <p className="mt-3 text-base leading-7 text-[#5F6470]">
-              You will know what to look for in a question and how to begin without wasting time or second-guessing.
-            </p>
-          </SimpleCard>
-          <SimpleCard>
-            <CheckCircle2 className="h-8 w-8 text-orange-500" />
-            <h3 className="mt-5 text-2xl font-black tracking-tight">Better accuracy</h3>
-            <p className="mt-3 text-base leading-7 text-[#5F6470]">
-              Stop dropping marks through poor setup, wrong method choice, or weak structure under pressure.
-            </p>
-          </SimpleCard>
-          <SimpleCard>
-            <Star className="h-8 w-8 text-orange-500" />
-            <h3 className="mt-5 text-2xl font-black tracking-tight">Real confidence</h3>
-            <p className="mt-3 text-base leading-7 text-[#5F6470]">
-              Walk into the exam knowing you have put in two of the most focused and effective days of your revision.
-            </p>
-          </SimpleCard>
+      <section className="border-t border-[#E8DFD3] bg-[#FFFDF9]">
+        <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
+          <div className="grid gap-6 lg:grid-cols-3">
+            <SimpleCard>
+              <Target className="h-8 w-8 text-orange-500" />
+              <h3 className="mt-5 text-2xl font-black tracking-tight">Clearer method</h3>
+              <p className="mt-3 text-base leading-7 text-[#5F6470]">Know what to look for and how to begin without wasting time or second-guessing.</p>
+            </SimpleCard>
+            <SimpleCard>
+              <CheckCircle2 className="h-8 w-8 text-orange-500" />
+              <h3 className="mt-5 text-2xl font-black tracking-tight">Better accuracy</h3>
+              <p className="mt-3 text-base leading-7 text-[#5F6470]">Stop dropping marks through poor setup, wrong method choice, or weak structure.</p>
+            </SimpleCard>
+            <SimpleCard>
+              <Star className="h-8 w-8 text-orange-500" />
+              <h3 className="mt-5 text-2xl font-black tracking-tight">Real confidence</h3>
+              <p className="mt-3 text-base leading-7 text-[#5F6470]">Walk into the exam knowing you've put in two of the most focused days of your revision.</p>
+            </SimpleCard>
+          </div>
         </div>
       </section>
 
       {/* ── ONLINE SIGNUP ── */}
-      <section id="online" className="border-t border-[#E8DFD3] bg-[#FFFDF9]">
+      <section id="online" className="border-t border-[#E8DFD3] bg-[#F7F1E8]">
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
           <div className="mb-10 flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#0C1B33]">
               <Wifi className="h-5 w-5 text-orange-400" />
             </div>
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-orange-500">Online</p>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-orange-500">Online — Tue 7 & Wed 8 April</p>
               <h2 className="text-2xl font-black tracking-tight">Join online — €99</h2>
             </div>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
             <div>
-              <p className="text-lg leading-8 text-[#5F6470]">
-                Live on Zoom across both days. Replay access included. Open to students anywhere in Ireland.
-              </p>
-              <div className="mt-6 space-y-3 text-[#3C4658]">
-                <SignupPoint>Full 2-day live programme on Zoom</SignupPoint>
-                <SignupPoint>Replay access sent within 24 hours</SignupPoint>
-                <SignupPoint>Same content as the in-person event</SignupPoint>
-                <SignupPoint>€79 for Elite Academy members (€20 off)</SignupPoint>
+              <div className="space-y-3">
+                <SignupPoint>Live on Zoom across both days</SignupPoint>
+                <SignupPoint>Replay access included</SignupPoint>
+                <SignupPoint>Capped at 100 seats — limited availability</SignupPoint>
+                <SignupPoint>Elite Academy members: <strong>€69</strong> (€30 off — use your discount code)</SignupPoint>
               </div>
               <div className="mt-6 rounded-[20px] border border-orange-200 bg-orange-50 p-4">
-                <p className="text-sm font-bold text-orange-700">One payment of €99. No hidden fees.</p>
+                <p className="text-sm font-bold text-orange-700">Fill out the form below and complete payment to secure your spot.</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-[28px] border border-[#E8DFD3] bg-white shadow-xl shadow-[#DCCFBD]/50">
@@ -331,28 +266,21 @@ export default function EasterCrashCourseLandingPage() {
               <MapPin className="h-5 w-5 text-white" />
             </div>
             <div>
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-orange-300">In-person · Cork</p>
-              <h2 className="text-2xl font-black tracking-tight">Cork intensive — €250</h2>
+              <p className="text-xs font-black uppercase tracking-[0.22em] text-orange-300">In-person · Cork — Fri 3 & Sat 4 April</p>
+              <h2 className="text-2xl font-black tracking-tight">Cork intensive — €249</h2>
             </div>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
             <div>
-              <p className="text-lg leading-8 text-slate-300">
-                Small group, two tutors, full two days in person. Strictly capped at 50 students.
-                Secure your seat with a €50 deposit now — remaining €200 paid on arrival.
-              </p>
-              <div className="mt-6 space-y-3 text-slate-200">
+              <div className="space-y-3">
                 <SignupPointLight>€50 non-refundable deposit to secure your seat</SignupPointLight>
-                <SignupPointLight>€200 balance paid on arrival (cash or card)</SignupPointLight>
-                <SignupPointLight>2 tutors — small group, focused environment</SignupPointLight>
+                <SignupPointLight>€199 balance paid on arrival (cash or card)</SignupPointLight>
                 <SignupPointLight>Hard cap of 50 students — no exceptions</SignupPointLight>
-                <SignupPointLight>€230 total for Elite Academy members (€20 off)</SignupPointLight>
+                <SignupPointLight>Elite Academy members: <strong className="text-white">€199 total</strong> (€50 off — use your discount code)</SignupPointLight>
               </div>
               <div className="mt-6 rounded-[20px] border border-white/10 bg-white/5 p-4">
-                <p className="text-sm font-bold text-orange-300">
-                  Once 50 deposits are paid, the Cork event is closed. No waitlist.
-                </p>
+                <p className="text-sm font-bold text-orange-300">Fill out the form below and complete the €50 deposit to secure your spot. Once 50 deposits are paid, Cork is closed.</p>
               </div>
               <div className="mt-4 flex items-center gap-2 text-slate-400">
                 <Users className="h-4 w-4" />
@@ -375,32 +303,34 @@ export default function EasterCrashCourseLandingPage() {
   );
 }
 
-// ── SUB-COMPONENTS ──
+// ── TIMELINE COMPONENTS ──
 
-function DayCard({ day, topics, colour }: { day: string; topics: string[]; colour: "orange" | "navy" }) {
-  const bg = colour === "orange" ? "bg-orange-500" : "bg-[#0C1B33]";
+function TimelineRow({ time, topic, desc, isBreak }: { time: string; topic: string; desc: string; isBreak: boolean }) {
   return (
-    <div className="rounded-[20px] border border-[#E8DFD3] bg-[#FFFDF9] overflow-hidden shadow-sm">
-      <div className={`${bg} px-5 py-3`}>
-        <p className="text-sm font-black text-white">{day}</p>
+    <div className="flex gap-4 py-4">
+      <div className="min-w-[80px]">
+        <p className="text-xs font-black uppercase tracking-wide text-orange-500">{time}</p>
       </div>
-      <div className="px-5 py-4 space-y-2">
-        {topics.map((t) => (
-          <div key={t} className="flex items-center gap-2">
-            <div className="h-1.5 w-1.5 rounded-full bg-orange-400 shrink-0" />
-            <p className="text-sm font-semibold text-[#3C4658]">{t}</p>
-          </div>
-        ))}
+      <div className="flex gap-3">
+        <div className="mt-1 h-3 w-3 rounded-full shrink-0" style={{ background: isBreak ? "#E8DFD3" : "#F97316" }} />
+        <div>
+          <p className={`text-base font-black tracking-tight ${isBreak ? "text-[#9BA3B0]" : "text-[#0C1B33]"}`}>{topic}</p>
+          {desc && <p className="mt-0.5 text-sm text-[#5F6470]">{desc}</p>}
+        </div>
       </div>
     </div>
   );
 }
 
+function TimelineDivider() {
+  return <div className="ml-[92px] h-px bg-[#E8DFD3]" />;
+}
+
+// ── OTHER COMPONENTS ──
+
 function SimpleCard({ children }: { children: React.ReactNode }) {
   return (
-    <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] p-7 shadow-sm">
-      {children}
-    </div>
+    <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] p-7 shadow-sm">{children}</div>
   );
 }
 
@@ -418,24 +348,6 @@ function Bullet({ children }: { children: React.ReactNode }) {
     <div className="flex items-start gap-3">
       <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-orange-500" />
       <p className="text-base leading-7 text-[#3C4658]">{children}</p>
-    </div>
-  );
-}
-
-function PainCard({ title, text }: { title: string; text: string }) {
-  return (
-    <div className="rounded-[24px] border border-[#E8DFD3] bg-[#FFFDF9] p-6 shadow-sm transition-transform duration-200 hover:-translate-y-1">
-      <p className="text-lg font-black tracking-tight text-[#0C1B33]">{title}</p>
-      <p className="mt-3 text-base leading-7 text-[#5F6470]">{text}</p>
-    </div>
-  );
-}
-
-function TeachCard({ title, text }: { title: string; text: string }) {
-  return (
-    <div className="rounded-[24px] border border-[#E8DFD3] bg-[#F3E8D7]/45 p-6 shadow-sm">
-      <p className="text-xl font-black tracking-tight text-[#0C1B33]">{title}</p>
-      <p className="mt-3 text-base leading-7 text-[#5F6470]">{text}</p>
     </div>
   );
 }
