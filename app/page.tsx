@@ -183,19 +183,19 @@ export default function ChezeEliteAcademyPage() {
           </div>
           <div className="grid gap-5 md:grid-cols-3">
             <TestimonialCard
-              quote="I went from being completely lost in class to actually knowing how to attack exam questions. The live sessions are the best part — Cheze explains things in a way that actually sticks."
-              name="Aoife M."
+              quote="Genuinely Chisom put his heart and soul into the maths classes and helped me get that H1 in maths. It gave me a structured timetable and allowed me to build exam techniques, learning shortcuts that some teachers don’t go through. "
+              name="Linda T."
               detail="Leaving Cert 2025"
             />
             <TestimonialCard
-              quote="It's not just maths help — it's learning how to perform. I stopped dropping marks on questions I knew the answer to. That's the difference this made."
-              name="Ciarán D."
+              quote="Your classes gave me the confidence to push for my first choice. I ended up with 578 points and my dream course."
+              name="Adam M."
               detail="Leaving Cert 2025"
             />
             <TestimonialCard
-              quote="Worth every cent. The video library alone is unreal — I've gone back over topics three or four times and it clicks more every time."
-              name="Sophie K."
-              detail="Leaving Cert 2026"
+              quote="I was really struggling with maths and failing up until my mocks. You encouraged me and kept saying we could turn it around. I ended up getting a H4 in the Leaving Cert and I could not have done it without your help. Thank you so much."
+              name="Bryan H."
+              detail="Leaving Cert 2025"
             />
           </div>
         </div>
