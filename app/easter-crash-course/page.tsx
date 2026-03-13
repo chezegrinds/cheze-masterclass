@@ -125,28 +125,6 @@ export default function EasterCrashCourseLandingPage() {
         </div>
       </section>
 
-      {/* ── VSL ── */}
-      <section className="border-b border-[#E8DFD3] bg-[#FFFDF9]">
-        <div className="mx-auto max-w-4xl px-6 py-14 lg:px-8 lg:py-16">
-          <div className="mb-8 text-center">
-            <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">Watch this first</p>
-            <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Everything you need to know.</h2>
-          </div>
-          {/* Replace the div below with your video embed */}
-          <div className="relative w-full overflow-hidden rounded-[24px] border-2 border-dashed border-orange-300 bg-orange-50 shadow-lg" style={{ aspectRatio: "16/9" }}>
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-              <div className="flex h-20 w-20 items-center justify-center rounded-full bg-[#0C1B33] shadow-md">
-                <svg className="h-8 w-8 text-orange-400 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <p className="text-base font-black text-[#0C1B33]">Your VSL goes here</p>
-              <p className="text-sm text-[#6B7280]">Replace this placeholder with your video embed code</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* ── PAIN POINTS ── */}
       <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
         <div className="max-w-3xl mb-10">
