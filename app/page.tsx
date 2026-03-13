@@ -75,7 +75,7 @@ export default function EasterCrashCourseLandingPage() {
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
                 <a href="#inperson" className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm">
-                  Cork In-Person — €50 deposit
+                  Cork In-Person — €50 Deposit
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
@@ -155,6 +155,35 @@ export default function EasterCrashCourseLandingPage() {
         </div>
       </section>
 
+      {/* ── PAIN POINTS ── */}
+      <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
+        <div className="max-w-3xl mb-10">
+          <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-orange-500">Sound familiar?</p>
+          <h2 className="text-3xl font-black tracking-tight sm:text-4xl">
+            The problem is not that you do not know maths.
+            <span className="block text-orange-500">It is that nobody has taught you how to perform.</span>
+          </h2>
+        </div>
+        <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <PainCard
+            title="You understand it in class but blank in the exam"
+            text="The material makes sense when your teacher explains it. But the moment you sit down in that exam hall, it is gone. That is not a knowledge problem — it is a connection problem. And it is fixable."
+          />
+          <PainCard
+            title="You are putting in the hours but the grade is not moving"
+            text="You are studying. You are doing the work. But come results day, it does not show. Hard work without the right method is just wasted time. This course gives you the method."
+          />
+          <PainCard
+            title="You see the question and do not know where to begin"
+            text="You read it twice, three times. Nothing clicks. So you skip it and hope for the best. This course teaches you exactly how to break down any question and start with confidence every single time."
+          />
+          <PainCard
+            title="Panic is costing you marks you actually have"
+            text="You know more than your results show. But pressure turns into anxiety, anxiety turns into mistakes, and mistakes turn into marks you should never have lost. Two focused days can change that."
+          />
+        </div>
+      </section>
+
       {/* ── TIMELINE ── */}
       <section className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
         <div className="mb-10 text-center">
@@ -172,9 +201,9 @@ export default function EasterCrashCourseLandingPage() {
             <div className="p-7">
               <TimelineRow time="11:00 AM" topic="Probability & Statistics" desc="The most heavily examined topic on Paper 2. Covered in full." isBreak={false} />
               <TimelineDivider />
-              <TimelineRow time="12:30 PM" topic="Break" desc="1 hour" isBreak={true} />
+              <TimelineRow time="1:00 PM" topic="Break" desc="1 hour" isBreak={true} />
               <TimelineDivider />
-              <TimelineRow time="1:30 PM" topic="Coordinate Geometry" desc="Lines and circles — everything you need for full marks." isBreak={false} />
+              <TimelineRow time="2:00 PM" topic="Coordinate Geometry" desc="Lines and circles — everything you need for full marks." isBreak={false} />
               <TimelineDivider />
               <TimelineRow time="4:00 PM" topic="End of Day 1" desc="" isBreak={true} />
             </div>
@@ -189,9 +218,9 @@ export default function EasterCrashCourseLandingPage() {
             <div className="p-7">
               <TimelineRow time="11:00 AM" topic="Differentiation & Integration" desc="The backbone of Paper 1. A systematic approach to every question type." isBreak={false} />
               <TimelineDivider />
-              <TimelineRow time="12:30 PM" topic="Break" desc="1 hour" isBreak={true} />
+              <TimelineRow time="1:00 PM" topic="Break" desc="1 hour" isBreak={true} />
               <TimelineDivider />
-              <TimelineRow time="1:30 PM" topic="Complex Numbers & Functions" desc="High-value topics students consistently underperform on." isBreak={false} />
+              <TimelineRow time="2:00 PM" topic="Complex Numbers & Functions" desc="High-value topics students consistently underperform on." isBreak={false} />
               <TimelineDivider />
               <TimelineRow time="4:00 PM" topic="End of Day 2" desc="" isBreak={true} />
             </div>
