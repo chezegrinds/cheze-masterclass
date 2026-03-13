@@ -75,7 +75,7 @@ export default function EasterCrashCourseLandingPage() {
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
                 <a href="#inperson" className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm">
-                  Cork In-Person — €249
+                  Cork In-Person — €50 deposit
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
@@ -284,7 +284,7 @@ export default function EasterCrashCourseLandingPage() {
               </div>
               <div className="mt-4 flex items-center gap-2 text-slate-400">
                 <Users className="h-4 w-4" />
-                <p className="text-sm font-semibold">50 seats · Cork venue TBC</p>
+                <p className="text-sm font-semibold">50 seats · Cork city centre venue</p>
               </div>
             </div>
 
