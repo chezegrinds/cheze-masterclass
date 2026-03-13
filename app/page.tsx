@@ -279,7 +279,7 @@ export default function EasterCrashCourseLandingPage() {
             <div className="overflow-hidden rounded-[28px] border border-[#E8DFD3] bg-white shadow-xl shadow-[#DCCFBD]/50">
               <iframe
                 title="Easter Crash Course — Online Sign Up"
-                src="https://form.typeform.com/to/REPLACE_ONLINE_TYPEFORM_ID"
+                src="https://form.typeform.com/to/M3HqV19D"
                 className="h-[600px] w-full"
               />
             </div>
@@ -320,7 +320,7 @@ export default function EasterCrashCourseLandingPage() {
             <div className="overflow-hidden rounded-[28px] border border-white/10 bg-[#FFFDF9] shadow-2xl">
               <iframe
                 title="Easter Crash Course — Cork In-Person Sign Up"
-                src="https://form.typeform.com/to/REPLACE_INPERSON_TYPEFORM_ID"
+                src="https://form.typeform.com/to/IiWXZHJS"
                 className="h-[650px] w-full"
               />
             </div>
