@@ -266,7 +266,7 @@ export default function EasterCrashCourseLandingPage() {
             </div>
             <div>
               <p className="text-xs font-black uppercase tracking-[0.22em] text-orange-300">In-person · Cork — Fri 3 & Sat 4 April</p>
-              <h2 className="text-2xl font-black tracking-tight">Cork intensive — €249</h2>
+              <h2 className="text-2xl font-black tracking-tight">Cork intensive — €199</h2>
             </div>
           </div>
 
@@ -274,9 +274,8 @@ export default function EasterCrashCourseLandingPage() {
             <div>
               <div className="space-y-3">
                 <SignupPointLight>€50 non-refundable deposit to secure your seat</SignupPointLight>
-                <SignupPointLight>€199 balance paid on arrival (cash or card)</SignupPointLight>
+                <SignupPointLight>€149 balance paid on arrival (cash or card)</SignupPointLight>
                 <SignupPointLight>Hard cap of 50 students — no exceptions</SignupPointLight>
-                <SignupPointLight>Elite Academy members: <strong className="text-white">€199 total</strong> (€50 off — use your discount code)</SignupPointLight>
               </div>
               <div className="mt-6 rounded-[20px] border border-white/10 bg-white/5 p-4">
                 <p className="text-sm font-bold text-orange-300">Fill out the form below and complete the €50 deposit to secure your spot. Once 50 deposits are paid, Cork is closed.</p>
