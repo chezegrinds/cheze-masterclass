@@ -253,7 +253,7 @@ export default function EasterCrashCourseLandingPage() {
                 <SignupPoint>Elite Academy members: <strong>€69</strong> (€30 off — use your discount code)</SignupPoint>
               </div>
               <div className="mt-6 rounded-[20px] border border-orange-200 bg-orange-50 p-4">
-                <p className="text-sm font-bold text-orange-700">Fill out the form below and complete payment to secure your spot.</p>
+                <p className="text-sm font-bold text-orange-700">Pay using the button to secure your spot (you’ll get instant confirmation).</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-[28px] border border-[#E8DFD3] bg-white shadow-xl shadow-[#DCCFBD]/50">
@@ -300,7 +300,7 @@ export default function EasterCrashCourseLandingPage() {
                 <SignupPointLight>Hard cap of 50 students — no exceptions</SignupPointLight>
               </div>
               <div className="mt-6 rounded-[20px] border border-white/10 bg-white/5 p-4">
-                <p className="text-sm font-bold text-orange-300">Fill out the form below and complete the €50 deposit to secure your spot. Once 50 deposits are paid, Cork is closed.</p>
+                <p className="text-sm font-bold text-orange-300">Pay the €50 deposit using the button to secure your seat. Once 50 deposits are paid, Cork is closed.</p>
               </div>
               <div className="mt-4 flex items-center gap-2 text-slate-400">
                 <Users className="h-4 w-4" />
