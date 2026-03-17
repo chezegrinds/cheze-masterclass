@@ -62,12 +62,22 @@ export default function EasterCrashCourseLandingPage() {
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <a href="#online" className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors">
-                  Join Online — €99
+                <a
+                  href="https://buy.stripe.com/aFa9AL4XJ0JeduMbJb2ZO1n"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
+                >
+                  Pay €99 — Join Online
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
-                <a href="#inperson" className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm">
-                  Cork In-Person — €50 Deposit
+                <a
+                  href="https://buy.stripe.com/8x25kv9dZdw01M44gJ2ZO1o"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm"
+                >
+                  Pay €50 Deposit — Cork In-Person
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
@@ -87,7 +97,7 @@ export default function EasterCrashCourseLandingPage() {
                   Cork in-person: Fri 3 & Sat 4 April · Online: Tue 7 & Wed 8 April
                 </p>
                 <p className="mt-2 text-sm font-bold text-orange-600">
-                  Online capped at 100 seats · Cork capped at 50 seats
+                  Bonus (LC 2025 Paper 1 & 2 breakdown) ends Sun 22 March · Cork capped at 50 deposits
                 </p>
               </div>
 
@@ -239,19 +249,32 @@ export default function EasterCrashCourseLandingPage() {
               <div className="space-y-3">
                 <SignupPoint>Live on Zoom across both days</SignupPoint>
                 <SignupPoint>Replay access included</SignupPoint>
-                <SignupPoint>Capped at 100 seats — limited availability</SignupPoint>
+                <SignupPoint>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 22 March, 11:59pm</strong>)</SignupPoint>
+                <SignupPoint>Enrollment closes <strong>Sun 5 April, 11:59pm</strong></SignupPoint>
                 <SignupPoint>Elite Academy members: <strong>€69</strong> (€30 off — use your discount code)</SignupPoint>
               </div>
               <div className="mt-6 rounded-[20px] border border-orange-200 bg-orange-50 p-4">
-                <p className="text-sm font-bold text-orange-700">Fill out the form below and complete payment to secure your spot.</p>
+                <p className="text-sm font-bold text-orange-700">Pay using the button to secure your spot (you’ll get instant confirmation).</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-[28px] border border-[#E8DFD3] bg-white shadow-xl shadow-[#DCCFBD]/50">
-              <iframe
-                title="Easter Crash Course — Online Sign Up"
-                src="https://form.typeform.com/to/M3HqV19D"
-                className="h-[600px] w-full"
-              />
+              <div className="p-8">
+                <p className="text-lg font-black tracking-tight text-[#0C1B33]">Secure your online spot</p>
+                <p className="mt-2 text-sm leading-7 text-[#5F6470]">
+                  Tap the button below to pay now. You’ll receive confirmation immediately.
+                </p>
+                <a
+                  href="https://buy.stripe.com/aFa9AL4XJ0JeduMbJb2ZO1n"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
+                >
+                  Pay €99 — Join Online
+                </a>
+                <p className="mt-4 text-xs font-semibold text-[#6B7280]">
+                  Elite Academy members: use your discount code at checkout.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -275,10 +298,12 @@ export default function EasterCrashCourseLandingPage() {
               <div className="space-y-3">
                 <SignupPointLight>€50 non-refundable deposit to secure your seat</SignupPointLight>
                 <SignupPointLight>€149 balance paid on arrival (cash or card)</SignupPointLight>
+                <SignupPointLight>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 22 March, 11:59pm</strong>)</SignupPointLight>
+                <SignupPointLight>Deposit closes <strong>Tue 31 March, 11:59pm</strong> (or when 50 deposits are paid)</SignupPointLight>
                 <SignupPointLight>Hard cap of 50 students — no exceptions</SignupPointLight>
               </div>
               <div className="mt-6 rounded-[20px] border border-white/10 bg-white/5 p-4">
-                <p className="text-sm font-bold text-orange-300">Fill out the form below and complete the €50 deposit to secure your spot. Once 50 deposits are paid, Cork is closed.</p>
+                <p className="text-sm font-bold text-orange-300">Pay the €50 deposit using the button to secure your seat. Once 50 deposits are paid, Cork is closed.</p>
               </div>
               <div className="mt-4 flex items-center gap-2 text-slate-400">
                 <Users className="h-4 w-4" />
@@ -287,11 +312,23 @@ export default function EasterCrashCourseLandingPage() {
             </div>
 
             <div className="overflow-hidden rounded-[28px] border border-white/10 bg-[#FFFDF9] shadow-2xl">
-              <iframe
-                title="Easter Crash Course — Cork In-Person Sign Up"
-                src="https://form.typeform.com/to/IiWXZHJS"
-                className="h-[650px] w-full"
-              />
+              <div className="p-8 text-[#0C1B33]">
+                <p className="text-lg font-black tracking-tight">Secure your Cork seat</p>
+                <p className="mt-2 text-sm leading-7 text-[#5F6470]">
+                  Pay the €50 non-refundable deposit now to lock in your seat.
+                </p>
+                <a
+                  href="https://buy.stripe.com/8x25kv9dZdw01M44gJ2ZO1o"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-orange-500 px-7 text-base font-bold text-white hover:bg-orange-600 transition-colors"
+                >
+                  Pay €50 Deposit — Secure Seat
+                </a>
+                <p className="mt-4 text-xs font-semibold text-[#6B7280]">
+                  Balance (€149) paid on arrival (cash or card).
+                </p>
+              </div>
             </div>
           </div>
         </div>
