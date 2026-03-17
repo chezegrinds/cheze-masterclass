@@ -97,7 +97,7 @@ export default function EasterCrashCourseLandingPage() {
                   Cork in-person: Fri 3 & Sat 4 April · Online: Tue 7 & Wed 8 April
                 </p>
                 <p className="mt-2 text-sm font-bold text-orange-600">
-                  Cork capped at 50 deposits · Online enrolment closes before the course starts
+                  Bonus (LC 2025 Paper 1 & 2 breakdown) ends Sun 22 March · Cork capped at 50 deposits
                 </p>
               </div>
 
@@ -249,7 +249,8 @@ export default function EasterCrashCourseLandingPage() {
               <div className="space-y-3">
                 <SignupPoint>Live on Zoom across both days</SignupPoint>
                 <SignupPoint>Replay access included</SignupPoint>
-                <SignupPoint>Enrollment closes before the course starts</SignupPoint>
+                <SignupPoint>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 22 March, 11:59pm</strong>)</SignupPoint>
+                <SignupPoint>Enrollment closes <strong>Sun 5 April, 11:59pm</strong></SignupPoint>
                 <SignupPoint>Elite Academy members: <strong>€69</strong> (€30 off — use your discount code)</SignupPoint>
               </div>
               <div className="mt-6 rounded-[20px] border border-orange-200 bg-orange-50 p-4">
@@ -297,6 +298,8 @@ export default function EasterCrashCourseLandingPage() {
               <div className="space-y-3">
                 <SignupPointLight>€50 non-refundable deposit to secure your seat</SignupPointLight>
                 <SignupPointLight>€149 balance paid on arrival (cash or card)</SignupPointLight>
+                <SignupPointLight>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 22 March, 11:59pm</strong>)</SignupPointLight>
+                <SignupPointLight>Deposit closes <strong>Tue 31 March, 11:59pm</strong> (or when 50 deposits are paid)</SignupPointLight>
                 <SignupPointLight>Hard cap of 50 students — no exceptions</SignupPointLight>
               </div>
               <div className="mt-6 rounded-[20px] border border-white/10 bg-white/5 p-4">
