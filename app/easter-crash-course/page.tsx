@@ -77,7 +77,7 @@ export default function EasterCrashCourseLandingPage() {
                   rel="noopener noreferrer"
                   className="inline-flex h-12 items-center rounded-2xl border border-[#E8DFD3] bg-[#FFFDF9] px-7 text-base font-bold text-[#0C1B33] hover:bg-[#F0E9DC] transition-colors shadow-sm"
                 >
-                  Pay €50 Deposit — Cork In-Person
+                  View the Academy
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
               </div>
@@ -94,16 +94,15 @@ export default function EasterCrashCourseLandingPage() {
                   <CountdownCard value={timeLeft.seconds} label="Seconds" />
                 </div>
                 <p className="mt-4 text-sm font-semibold text-[#5F6470]">
-                  Cork in-person: Fri 3 & Sat 4 April · Online: Tue 7 & Wed 8 April
+                  Online: Tue 7 & Wed 8 April
                 </p>
                 <p className="mt-2 text-sm font-bold text-orange-600">
-                  Bonus (LC 2025 Paper 1 & 2 breakdown) ends Sun 22 March · Cork capped at 50 deposits
+                  Bonus (LC 2025 Paper 1 & 2 breakdown) ends Sun 22 March · Online enrolment closes before the course starts
                 </p>
               </div>
 
               <div className="mt-6 grid max-w-2xl gap-3 sm:grid-cols-3">
-                <FeaturePill icon={<MapPin className="h-4 w-4" />} label="Cork: Fri 3 & Sat 4 Apr" />
-                <FeaturePill icon={<Wifi className="h-4 w-4" />} label="Online: Tue 7 & Wed 8 Apr" />
+                                <FeaturePill icon={<Wifi className="h-4 w-4" />} label="Online: Tue 7 & Wed 8 Apr" />
                 <FeaturePill icon={<Clock3 className="h-4 w-4" />} label="11am – 4pm each day" />
               </div>
             </div>
@@ -176,7 +175,7 @@ export default function EasterCrashCourseLandingPage() {
           <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] overflow-hidden shadow-sm">
             <div className="bg-orange-500 px-7 py-4">
               <p className="text-lg font-black text-white">Day 1</p>
-              <p className="text-sm text-orange-100 mt-0.5">Fri 3 Apr (Cork) · Tue 7 Apr (Online)</p>
+              <p className="text-sm text-orange-100 mt-0.5">Tue 7 Apr (Online)</p>
             </div>
             <div className="p-7">
               <TimelineRow time="11:00 AM" topic="Probability & Statistics" desc="The most heavily examined topic on Paper 2. Covered in full." isBreak={false} />
@@ -193,7 +192,7 @@ export default function EasterCrashCourseLandingPage() {
           <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9] overflow-hidden shadow-sm">
             <div className="bg-[#0C1B33] px-7 py-4">
               <p className="text-lg font-black text-white">Day 2</p>
-              <p className="text-sm text-slate-400 mt-0.5">Sat 4 Apr (Cork) · Wed 8 Apr (Online)</p>
+              <p className="text-sm text-slate-400 mt-0.5">Wed 8 Apr (Online)</p>
             </div>
             <div className="p-7">
               <TimelineRow time="11:00 AM" topic="Differentiation & Integration" desc="The backbone of Paper 1. A systematic approach to every question type." isBreak={false} />
@@ -281,58 +280,6 @@ export default function EasterCrashCourseLandingPage() {
       </section>
 
       {/* ── IN-PERSON SIGNUP ── */}
-      <section id="inperson" className="bg-[#0C1B33] text-white">
-        <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
-          <div className="mb-10 flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-orange-500">
-              <MapPin className="h-5 w-5 text-white" />
-            </div>
-            <div>
-              <p className="text-xs font-black uppercase tracking-[0.22em] text-orange-300">In-person · Cork — Fri 3 & Sat 4 April</p>
-              <h2 className="text-2xl font-black tracking-tight">Cork intensive — €199</h2>
-            </div>
-          </div>
-
-          <div className="grid gap-10 lg:grid-cols-[0.75fr_1.25fr]">
-            <div>
-              <div className="space-y-3">
-                <SignupPointLight>€50 non-refundable deposit to secure your seat</SignupPointLight>
-                <SignupPointLight>€149 balance paid on arrival (cash or card)</SignupPointLight>
-                <SignupPointLight>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 22 March, 11:59pm</strong>)</SignupPointLight>
-                <SignupPointLight>Deposit closes <strong>Tue 31 March, 11:59pm</strong> (or when 50 deposits are paid)</SignupPointLight>
-                <SignupPointLight>Hard cap of 50 students — no exceptions</SignupPointLight>
-              </div>
-              <div className="mt-6 rounded-[20px] border border-white/10 bg-white/5 p-4">
-                <p className="text-sm font-bold text-orange-300">Pay the €50 deposit using the button to secure your seat. Once 50 deposits are paid, Cork is closed.</p>
-              </div>
-              <div className="mt-4 flex items-center gap-2 text-slate-400">
-                <Users className="h-4 w-4" />
-                <p className="text-sm font-semibold">50 seats · Cork city centre venue</p>
-              </div>
-            </div>
-
-            <div className="overflow-hidden rounded-[28px] border border-white/10 bg-[#FFFDF9] shadow-2xl">
-              <div className="p-8 text-[#0C1B33]">
-                <p className="text-lg font-black tracking-tight">Secure your Cork seat</p>
-                <p className="mt-2 text-sm leading-7 text-[#5F6470]">
-                  Pay the €50 non-refundable deposit now to lock in your seat.
-                </p>
-                <a
-                  href="https://buy.stripe.com/8x25kv9dZdw01M44gJ2ZO1o"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-orange-500 px-7 text-base font-bold text-white hover:bg-orange-600 transition-colors"
-                >
-                  Pay €50 Deposit — Secure Seat
-                </a>
-                <p className="mt-4 text-xs font-semibold text-[#6B7280]">
-                  Balance (€149) paid on arrival (cash or card).
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
     </div>
   );
