@@ -52,7 +52,7 @@ export default function HomePage() {
               <div className="overflow-hidden rounded-2xl border border-black/10 bg-white/60">
                 <img src="/assets/chisom-4x5.png" alt="Chisom" className="h-full w-full object-cover" />
               </div>
-              <p className="mt-4 text-sm text-slate-600">Chisom. Leaving Cert HL Maths.</p>
+              <p className="mt-4 text-sm text-slate-600">Chisom, Founder of Cheze Grinds.</p>
             </div>
           </div>
         </div>
