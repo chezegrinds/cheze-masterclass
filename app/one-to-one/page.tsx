@@ -54,11 +54,11 @@ export default function OneToOnePage() {
 
             <div className="lg:pl-8">
               <div className="rounded-[28px] border border-[#E8DFD3] bg-[#FFFDF9]/95 shadow-xl shadow-[#DCCFBD]/50 p-7 sm:p-8">
-                <p className="text-sm font-black uppercase tracking-[0.22em] text-orange-500">Pricing</p>
-                <p className="mt-3 text-3xl font-black tracking-tight">200 per month</p>
-                <p className="mt-2 text-sm text-[#5F6470]">Includes 4 sessions per month</p>
-                <p className="mt-2 text-sm text-[#5F6470]">Extra sessions are 40 each</p>
-                <p className="mt-2 text-sm text-[#5F6470]">Payment plans available</p>
+                <p className="text-sm font-black uppercase tracking-[0.22em] text-orange-500">How it works</p>
+                <p className="mt-3 text-3xl font-black tracking-tight">Apply for support</p>
+                <p className="mt-2 text-sm text-[#5F6470]">We match you with the right tutor and confirm availability.</p>
+                <p className="mt-2 text-sm text-[#5F6470]">Pricing is shared after application.</p>
+                <p className="mt-2 text-sm text-[#5F6470]">Payment plans available.</p>
 
                 <div className="mt-6 space-y-3">
                   <Bullet>Parent friendly onboarding on WhatsApp</Bullet>
