@@ -10,11 +10,11 @@ export default function Navbar({ activePage }: { activePage: ActivePage }) {
 
   const linkClass = (isActive: boolean) =>
     `rounded-xl px-4 py-2 text-sm font-bold transition-colors ${
-      isActive ? "bg-[#0C1B33] text-white" : "text-[#5F6470] hover:bg-[#F0E9DC] hover:text-[#0C1B33]"
+      isActive ? "bg-[#111827] text-white" : "text-slate-700 hover:bg-white/60 hover:text-[#111827]"
     }`;
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-[#E8DFD3] bg-[#FFFDF9]/95 backdrop-blur-md shadow-sm">
+    <nav className="sticky top-0 z-50 border-b border-black/10 bg-[#FAF7F0]/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 lg:px-8">
         <a href="/" className="flex items-center gap-3 shrink-0">
           <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border-2 border-[#F1EBDC] bg-[#0C1B33] shadow-sm">
@@ -36,7 +36,7 @@ export default function Navbar({ activePage }: { activePage: ActivePage }) {
         <div className="hidden md:flex items-center gap-3">
           <a
             href="/easter-crash-course"
-            className="inline-flex h-9 items-center rounded-xl bg-orange-500 px-4 text-sm font-bold text-white hover:bg-orange-600 transition-colors"
+            className="inline-flex h-9 items-center rounded-xl bg-[#111827] px-4 text-sm font-bold text-white hover:bg-black transition-colors"
           >
             Join Easter Course
             <ChevronRight className="ml-1 h-3.5 w-3.5" />
