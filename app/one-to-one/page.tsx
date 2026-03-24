@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CheckCircle2, ChevronRight, ShieldCheck } from "lucide-react";
+import { CheckCircle2, ChevronRight } from "lucide-react";
 import Navbar from "@/components/navbar";
 
 export default function OneToOnePage() {
@@ -18,10 +18,7 @@ export default function OneToOnePage() {
         <div className="relative mx-auto max-w-7xl px-6 py-10 lg:px-8 lg:py-16">
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-[#0F766E]">
-                <ShieldCheck className="h-4 w-4" />
-                1 to 1 Support
-              </div>
+              <p className="mb-4 text-xs font-extrabold uppercase tracking-[0.22em] text-[#0F766E]">1 to 1 Support</p>
 
               <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
                 Personal support for Leaving Cert HL Maths
