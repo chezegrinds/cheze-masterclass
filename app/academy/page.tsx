@@ -39,18 +39,18 @@ export default function ChezeEliteAcademyPage() {
                 <span className="block text-[#0F766E]">Better at performing in the exam.</span>
               </h1>
 
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-[#f1eeda]/60 sm:text-xl">
                 A performance-driven community for Leaving Cert HL Maths students. Two live classes every week, a full on-demand video library, and the support system to go from understanding the material to actually delivering on exam day.
               </p>
 
               <p className="mt-4 text-sm font-semibold text-[#6B7280]">
-                1,000+ Irish students taught · Trusted exam-focused teaching · Built for Leaving Cert success
+                600+ students helped directly
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <a
                   href="#join"
-                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
+                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-[#f1eeda] hover:bg-[#16284A] transition-colors"
                 >
                   Join the Academy — Free trial
                   <ChevronRight className="ml-2 h-4 w-4" />
@@ -86,7 +86,7 @@ export default function ChezeEliteAcademyPage() {
                     <Bullet>Exam performance training — answer structure, technique, and how to deliver under pressure</Bullet>
                     <Bullet>Discounts on all live courses and events throughout the year</Bullet>
                   </div>
-                  <div className="mt-6 rounded-3xl bg-[#0C1B33] p-5 text-white">
+                  <div className="mt-6 rounded-3xl bg-[#0C1B33] p-5 text-[#f1eeda]">
                     <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#0F766E]">Who this is for</p>
                     <p className="mt-3 text-base leading-7 text-slate-100">
                       Leaving Cert HL Maths students who want more than understanding — who want to actually perform when it counts.
@@ -204,7 +204,7 @@ export default function ChezeEliteAcademyPage() {
           <div className="mb-10 text-center">
             <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-[#0F766E]">Pricing</p>
             <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Simple, transparent pricing.</h2>
-            <p className="mt-4 text-lg text-slate-600">Cancel any time. No long contracts. Just results.</p>
+            <p className="mt-4 text-lg text-[#f1eeda]/60">Cancel any time. No long contracts. Just results.</p>
           </div>
 
           {/* Single pricing card — centred */}
@@ -212,10 +212,10 @@ export default function ChezeEliteAcademyPage() {
             <div className="rounded-[28px] border-2 border-orange-400 bg-[#0C1B33] p-8 shadow-xl">
               <p className="text-sm font-black uppercase tracking-[0.22em] text-[#0F766E]">Monthly membership</p>
               <div className="mt-3 flex items-end gap-2">
-                <span className="text-6xl font-black text-white">€94</span>
-                <span className="mb-2 text-base font-semibold text-slate-400">/month</span>
+                <span className="text-6xl font-black text-[#f1eeda]">€94</span>
+                <span className="mb-2 text-base font-semibold text-[#f1eeda]/70">/month</span>
               </div>
-              <p className="mt-2 text-sm text-slate-300">Full access to everything. Cancel any time.</p>
+              <p className="mt-2 text-sm text-[#f1eeda]/80">Full access to everything. Cancel any time.</p>
 
               <div className="mt-6 space-y-3">
                 <PricingLineLight>2 live classes every week</PricingLineLight>
@@ -230,7 +230,7 @@ export default function ChezeEliteAcademyPage() {
                 href="https://www.skool.com/cheze-grinds-academy-8823/about"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-[#111827] px-6 py-4 text-base font-bold text-white hover:bg-black transition-colors"
+                className="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-[#111827] px-6 py-4 text-base font-bold text-[#f1eeda] hover:bg-black transition-colors"
               >
                 Join the Academy — Free trial
                 <ChevronRight className="ml-2 h-4 w-4" />
@@ -239,7 +239,7 @@ export default function ChezeEliteAcademyPage() {
 
             <div className="mt-5 flex items-center justify-center gap-2">
               <ShieldCheck className="h-5 w-5 text-[#0F766E] shrink-0" />
-              <p className="text-sm font-semibold text-slate-600">Cancel any time — no notice period, no penalty.</p>
+              <p className="text-sm font-semibold text-[#f1eeda]/60">Cancel any time — no notice period, no penalty.</p>
             </div>
           </div>
         </div>
@@ -282,14 +282,14 @@ export default function ChezeEliteAcademyPage() {
       </section>
 
       {/* ── FINAL CTA ── */}
-      <section className="bg-[#0C1B33] text-white">
+      <section className="bg-[#0C1B33] text-[#f1eeda]">
         <div className="mx-auto max-w-4xl px-6 py-16 text-center lg:px-8 lg:py-20">
           <p className="mb-3 text-sm font-black uppercase tracking-[0.22em] text-[#0F766E]">Ready to get started?</p>
           <h2 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl">
             Stop going at it alone.
             <span className="block text-[#0F766E]">Join the Academy today.</span>
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-slate-300">
+          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-[#f1eeda]/80">
             Two live classes a week. A full on-demand video library. A performance-driven community. Everything you need to walk into the exam ready.
           </p>
           <div className="mt-8 flex justify-center">
@@ -297,7 +297,7 @@ export default function ChezeEliteAcademyPage() {
               href="https://www.skool.com/cheze-grinds-academy-8823/about"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex h-14 items-center rounded-2xl bg-[#111827] px-8 text-base font-bold text-white hover:bg-black transition-colors"
+              className="inline-flex h-14 items-center rounded-2xl bg-[#111827] px-8 text-base font-bold text-[#f1eeda] hover:bg-black transition-colors"
             >
               Join the Academy — €94/mo
               <ChevronRight className="ml-2 h-4 w-4" />
@@ -334,7 +334,7 @@ function PainCard({ title, text }: { title: string; text: string }) {
   return (
     <div className="rounded-[24px] border border-black/10 bg-white/60 p-6 shadow-sm">
       <p className="text-base font-black leading-snug text-[#111827]">{title}</p>
-      <p className="mt-3 text-sm leading-7 text-slate-600">{text}</p>
+      <p className="mt-3 text-sm leading-7 text-[#f1eeda]/60">{text}</p>
     </div>
   );
 }
@@ -346,7 +346,7 @@ function IncludedCard({ icon, title, desc }: { icon: React.ReactNode; title: str
         {icon}
       </div>
       <p className="text-base font-black text-[#111827]">{title}</p>
-      <p className="mt-2 text-sm leading-7 text-slate-600">{desc}</p>
+      <p className="mt-2 text-sm leading-7 text-[#f1eeda]/60">{desc}</p>
     </div>
   );
 }
@@ -372,7 +372,7 @@ function PricingLineLight({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-3">
       <CheckCircle2 className="h-4 w-4 shrink-0 text-[#0F766E]" />
-      <p className="text-sm text-slate-200">{children}</p>
+      <p className="text-sm text-[#f1eeda]/90">{children}</p>
     </div>
   );
 }
@@ -381,7 +381,7 @@ function FaqCard({ q, a }: { q: string; a: string }) {
   return (
     <div className="rounded-[20px] border border-black/10 bg-white/60 p-6">
       <p className="text-base font-black text-[#111827]">{q}</p>
-      <p className="mt-2 text-sm leading-7 text-slate-600">{a}</p>
+      <p className="mt-2 text-sm leading-7 text-[#f1eeda]/60">{a}</p>
     </div>
   );
 }
