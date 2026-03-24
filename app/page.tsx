@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8 lg:py-20">
           <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
             <div>
-              <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#0F766E]">Leaving Cert HL Maths</p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.22em] text-[#0F766E]">Maths grinds and exam performance</p>
               <h1 className="mt-4 max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-5xl">
                 Structured maths support that parents can trust.
               </h1>
