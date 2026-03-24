@@ -22,7 +22,7 @@ export default function Navbar({ activePage }: { activePage: ActivePage }) {
           </div>
           <div className="hidden sm:block">
             <p className="text-sm font-black tracking-tight text-[#0C1B33] leading-none">Cheze Grinds</p>
-            <p className="text-xs text-[#9BA3B0] leading-none mt-0.5">Leaving Cert HL Maths</p>
+            <p className="text-xs text-[#9BA3B0] leading-none mt-0.5">Maths grinds and exam performance</p>
           </div>
         </a>
 
