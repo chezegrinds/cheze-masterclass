@@ -38,6 +38,10 @@ export default function HomePage() {
                 </a>
               </div>
 
+              <p className="mt-4 text-sm text-slate-600">
+                Easter course and Weekly Academy are Leaving Cert HL only. 1 to 1 support is for Junior Cycle and Leaving Cert, higher level and ordinary level.
+              </p>
+
               <div className="mt-10 grid gap-3 sm:grid-cols-2">
                 <LineItem>Clear weekly structure</LineItem>
                 <LineItem>Exam question method</LineItem>
