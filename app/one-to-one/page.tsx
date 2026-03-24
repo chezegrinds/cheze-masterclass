@@ -25,10 +25,10 @@ export default function OneToOnePage() {
                 <span className="block text-[#0F766E]">with a clear weekly plan.</span>
               </h1>
 
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-[#f1eeda]/60 sm:text-xl">
                 1 to 1 support for all ages and levels.
               </p>
-              <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600">
+              <p className="mt-3 max-w-2xl text-base leading-7 text-[#f1eeda]/60">
                 Junior Cycle and Leaving Cert. Higher level and ordinary level.
               </p>
 
@@ -37,7 +37,7 @@ export default function OneToOnePage() {
                   href="https://form.typeform.com/to/Clemi1KP"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
+                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-[#f1eeda] hover:bg-[#16284A] transition-colors"
                 >
                   Apply now
                   <ChevronRight className="ml-2 h-4 w-4" />
@@ -56,9 +56,9 @@ export default function OneToOnePage() {
               <div className="rounded-[28px] border border-black/10 bg-white/60/95 shadow-xl shadow-[#DCCFBD]/50 p-7 sm:p-8">
                 <p className="text-sm font-black uppercase tracking-[0.22em] text-[#0F766E]">How it works</p>
                 <p className="mt-3 text-3xl font-black tracking-tight">Apply for support</p>
-                <p className="mt-2 text-sm text-slate-600">We match you with the right tutor and confirm availability.</p>
-                <p className="mt-2 text-sm text-slate-600">Pricing is shared after application.</p>
-                <p className="mt-2 text-sm text-slate-600">Payment plans available.</p>
+                <p className="mt-2 text-sm text-[#f1eeda]/60">We match you with the right tutor and confirm availability.</p>
+                <p className="mt-2 text-sm text-[#f1eeda]/60">Pricing is shared after application.</p>
+                <p className="mt-2 text-sm text-[#f1eeda]/60">Payment plans available.</p>
 
                 <div className="mt-6 space-y-3">
                   <Bullet>Parent friendly onboarding on WhatsApp</Bullet>
@@ -70,7 +70,7 @@ export default function OneToOnePage() {
                   href="https://form.typeform.com/to/Clemi1KP"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-7 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-[#111827] text-base font-bold text-white hover:bg-black transition-colors"
+                  className="mt-7 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-[#111827] text-base font-bold text-[#f1eeda] hover:bg-black transition-colors"
                 >
                   Apply for 1 to 1
                 </a>

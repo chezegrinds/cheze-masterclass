@@ -49,7 +49,7 @@ export default function EasterCrashCourseLandingPage() {
                 <span className="block text-[#0F766E]">Walk into the exam ready.</span>
               </h1>
 
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-[#f1eeda]/60 sm:text-xl">
                 A focused 2-day crash course covering the biggest and most important topics on the Leaving Cert HL Maths paper.
               </p>
 
@@ -62,7 +62,7 @@ export default function EasterCrashCourseLandingPage() {
                   href="https://buy.stripe.com/aFa9AL4XJ0JeduMbJb2ZO1n"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
+                  className="inline-flex h-12 items-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-[#f1eeda] hover:bg-[#16284A] transition-colors"
                 >
                   Pay €99 — Join Online
                   <ChevronRight className="ml-2 h-4 w-4" />
@@ -89,7 +89,7 @@ export default function EasterCrashCourseLandingPage() {
                   <CountdownCard value={timeLeft.minutes} label="Minutes" />
                   <CountdownCard value={timeLeft.seconds} label="Seconds" />
                 </div>
-                <p className="mt-4 text-sm font-semibold text-slate-600">
+                <p className="mt-4 text-sm font-semibold text-[#f1eeda]/60">
                   Online: Tue 7 & Wed 8 April
                 </p>
                 <p className="mt-2 text-sm font-bold text-[#0F766E]">
@@ -117,7 +117,7 @@ export default function EasterCrashCourseLandingPage() {
                     <Bullet>Exam technique that stops you dropping marks on questions you understand</Bullet>
                     <Bullet>Replay access to every session so nothing is missed</Bullet>
                   </div>
-                  <div className="mt-6 rounded-3xl bg-[#0C1B33] p-5 text-white">
+                  <div className="mt-6 rounded-3xl bg-[#0C1B33] p-5 text-[#f1eeda]">
                     <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#0F766E]">Who this is for</p>
                     <p className="mt-3 text-base leading-7 text-slate-100">
                       Leaving Cert HL Maths students who want two focused days that cover what matters most.
@@ -170,7 +170,7 @@ export default function EasterCrashCourseLandingPage() {
           {/* Day 1 */}
           <div className="rounded-[28px] border border-black/10 bg-white/60 overflow-hidden shadow-sm">
             <div className="bg-[#111827] px-7 py-4">
-              <p className="text-lg font-black text-white">Day 1</p>
+              <p className="text-lg font-black text-[#f1eeda]">Day 1</p>
               <p className="text-sm text-orange-100 mt-0.5">Tue 7 Apr (Online)</p>
             </div>
             <div className="p-7">
@@ -187,8 +187,8 @@ export default function EasterCrashCourseLandingPage() {
           {/* Day 2 */}
           <div className="rounded-[28px] border border-black/10 bg-white/60 overflow-hidden shadow-sm">
             <div className="bg-[#0C1B33] px-7 py-4">
-              <p className="text-lg font-black text-white">Day 2</p>
-              <p className="text-sm text-slate-400 mt-0.5">Wed 8 Apr (Online)</p>
+              <p className="text-lg font-black text-[#f1eeda]">Day 2</p>
+              <p className="text-sm text-[#f1eeda]/70 mt-0.5">Wed 8 Apr (Online)</p>
             </div>
             <div className="p-7">
               <TimelineRow time="11:00 AM" topic="Differentiation & Integration" desc="The backbone of Paper 1. A systematic approach to every question type." isBreak={false} />
@@ -210,17 +210,17 @@ export default function EasterCrashCourseLandingPage() {
             <SimpleCard>
               <Target className="h-8 w-8 text-[#0F766E]" />
               <h3 className="mt-5 text-2xl font-black tracking-tight">Clearer method</h3>
-              <p className="mt-3 text-base leading-7 text-slate-600">Know what to look for and how to begin without wasting time or second-guessing.</p>
+              <p className="mt-3 text-base leading-7 text-[#f1eeda]/60">Know what to look for and how to begin without wasting time or second-guessing.</p>
             </SimpleCard>
             <SimpleCard>
               <CheckCircle2 className="h-8 w-8 text-[#0F766E]" />
               <h3 className="mt-5 text-2xl font-black tracking-tight">Better accuracy</h3>
-              <p className="mt-3 text-base leading-7 text-slate-600">Stop dropping marks through poor setup, wrong method choice, or weak structure.</p>
+              <p className="mt-3 text-base leading-7 text-[#f1eeda]/60">Stop dropping marks through poor setup, wrong method choice, or weak structure.</p>
             </SimpleCard>
             <SimpleCard>
               <Star className="h-8 w-8 text-[#0F766E]" />
               <h3 className="mt-5 text-2xl font-black tracking-tight">Real confidence</h3>
-              <p className="mt-3 text-base leading-7 text-slate-600">Walk into the exam knowing you've put in two of the most focused days of your revision.</p>
+              <p className="mt-3 text-base leading-7 text-[#f1eeda]/60">Walk into the exam knowing you've put in two of the most focused days of your revision.</p>
             </SimpleCard>
           </div>
         </div>
@@ -255,14 +255,14 @@ export default function EasterCrashCourseLandingPage() {
             <div className="overflow-hidden rounded-[28px] border border-black/10 bg-white shadow-xl shadow-[#DCCFBD]/50">
               <div className="p-8">
                 <p className="text-lg font-black tracking-tight text-[#111827]">Secure your online spot</p>
-                <p className="mt-2 text-sm leading-7 text-slate-600">
+                <p className="mt-2 text-sm leading-7 text-[#f1eeda]/60">
                   Tap the button below to pay now. You’ll receive confirmation immediately.
                 </p>
                 <a
                   href="https://buy.stripe.com/aFa9AL4XJ0JeduMbJb2ZO1n"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-6 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-white hover:bg-[#16284A] transition-colors"
+                  className="mt-6 inline-flex h-12 w-full items-center justify-center rounded-2xl bg-[#0C1B33] px-7 text-base font-bold text-[#f1eeda] hover:bg-[#16284A] transition-colors"
                 >
                   Pay €99 — Join Online
                 </a>
@@ -293,7 +293,7 @@ function TimelineRow({ time, topic, desc, isBreak }: { time: string; topic: stri
         <div className="mt-1 h-3 w-3 rounded-full shrink-0" style={{ background: isBreak ? "#E8DFD3" : "#F97316" }} />
         <div>
           <p className={`text-base font-black tracking-tight ${isBreak ? "text-[#9BA3B0]" : "text-[#111827]"}`}>{topic}</p>
-          {desc && <p className="mt-0.5 text-sm text-slate-600">{desc}</p>}
+          {desc && <p className="mt-0.5 text-sm text-[#f1eeda]/60">{desc}</p>}
         </div>
       </div>
     </div>
@@ -350,7 +350,7 @@ function SignupPointLight({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-start gap-3">
       <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#0F766E]" />
-      <p className="text-base leading-7 text-slate-200">{children}</p>
+      <p className="text-base leading-7 text-[#f1eeda]/90">{children}</p>
     </div>
   );
 }
@@ -359,7 +359,7 @@ function PainCard({ title, text }: { title: string; text: string }) {
   return (
     <div className="rounded-[24px] border border-black/10 bg-white/60 p-6 shadow-sm">
       <p className="text-base font-black leading-snug text-[#111827]">{title}</p>
-      <p className="mt-3 text-sm leading-7 text-slate-600">{text}</p>
+      <p className="mt-3 text-sm leading-7 text-[#f1eeda]/60">{text}</p>
     </div>
   );
 }
