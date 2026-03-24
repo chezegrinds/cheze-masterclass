@@ -4,7 +4,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import {
   Clock3,
   CheckCircle2,
-  AlertTriangle,
   ChevronRight,
   Star,
   Target,
@@ -43,10 +42,7 @@ export default function EasterCrashCourseLandingPage() {
         <div className="relative mx-auto max-w-7xl px-6 py-8 lg:px-8 lg:py-16">
           <div className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr]">
             <div>
-              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-[#0F766E]">
-                <AlertTriangle className="h-4 w-4" />
-                Easter Revision Crash Course 2026
-              </div>
+              <p className="mb-4 text-xs font-extrabold uppercase tracking-[0.22em] text-[#0F766E]">Easter Revision Crash Course 2026</p>
 
               <h1 className="max-w-3xl text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
                 Two days. Every topic that matters.
@@ -72,7 +68,7 @@ export default function EasterCrashCourseLandingPage() {
                   <ChevronRight className="ml-2 h-4 w-4" />
                 </a>
                 <a
-                  href="https://buy.stripe.com/8x25kv9dZdw01M44gJ2ZO1o"
+                  href="/academy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex h-12 items-center rounded-2xl border border-black/10 bg-white/60 px-7 text-base font-bold text-[#111827] hover:bg-[#F0E9DC] transition-colors shadow-sm"
