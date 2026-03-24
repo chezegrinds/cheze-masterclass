@@ -41,7 +41,7 @@ export default function HomePage() {
             <div className="mt-14 grid gap-6 sm:grid-cols-3">
               <Stat value="2 to 3" label="grade average increase" />
               <Stat value="200+" label="students helped directly" />
-              <Stat value="1,000+" label="Irish students taught" />
+              <Stat value="600+" label="students helped directly" />
             </div>
           </div>
         </div>

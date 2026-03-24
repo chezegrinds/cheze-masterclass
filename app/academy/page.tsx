@@ -44,7 +44,7 @@ export default function ChezeEliteAcademyPage() {
               </p>
 
               <p className="mt-4 text-sm font-semibold text-[#6B7280]">
-                1,000+ Irish students taught · Trusted exam-focused teaching · Built for Leaving Cert success
+                600+ students helped directly
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
