@@ -29,7 +29,10 @@ export default function OneToOnePage() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl">
-                For parents who want structured support, accountability, and better exam performance.
+                1 to 1 support for all ages and levels.
+              </p>
+              <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600">
+                Junior Cycle and Leaving Cert. Higher level and ordinary level.
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
