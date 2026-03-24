@@ -244,7 +244,7 @@ export default function EasterCrashCourseLandingPage() {
               <div className="space-y-3">
                 <SignupPoint>Live on Zoom across both days</SignupPoint>
                 <SignupPoint>Replay access included</SignupPoint>
-                <SignupPoint>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 22 March, 11:59pm</strong>)</SignupPoint>
+                <SignupPoint>Bonus: LC 2025 Paper 1 & 2 video breakdown (enrol by <strong>Sun 29 March, 11:59pm</strong>)</SignupPoint>
                 <SignupPoint>Enrollment closes <strong>Sun 5 April, 11:59pm</strong></SignupPoint>
                 <SignupPoint>Elite Academy members: <strong>€69</strong> (€30 off — use your discount code)</SignupPoint>
               </div>
